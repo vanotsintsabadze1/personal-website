@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Homepage from "@/components/Homepage";
-import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
   return (
@@ -12,7 +11,6 @@ export default function Home() {
         <div className="w-[full] h-full flex justify-center items-center flex-col">
           <Homepage />
         </div>
-        <Sidebar />
       </div>
     </>
   );
